@@ -125,20 +125,20 @@ main section:nth-child(3) {
 @keyframes fromtop {
     from {
         opacity: 0;
-        transform: translatex(-30px)
+        transform: translatey(-30px)
     }
     to {
         opacity: 1;
-        transform: translatex(0)
+        transform: translatey(0)
     }
 }
 @keyframes frombottom {
     from {
         opacity: 0;
-        transform: translatex(30px)
+        transform: translatey(30px)
     }
     to {
         opacity: 1;
-        transform: translatex(0)
+        transform: translatey(0)
     }
 }
